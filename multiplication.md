@@ -34,7 +34,7 @@ Given - A calculator is on and working properly
 
 When - enters a number and 1
 
-Then - Result is entered number
+Then - displays a number.  
 
 ## Scenario: Decimal value multiplication
 
@@ -42,7 +42,7 @@ Given - A calculator is on and working properly
 
 When - enters  decimal number,*, second decimal number and =
 
-Then - a result is rounded off in case of numbers after precision exceeds limit.
+Then - round off a result in case of numbers after precision exceeds limit.
 
 ## Scenario: Irrational value multiplication
 
@@ -67,7 +67,7 @@ Given - A calculator is on and working properly
 When - enters two fraction numbers\
        (a/b*c/d)
 
-Then - leads to incorrect result - a/b division is performed and multiplied with\
+Then -  leads to incorrect result - performs division of a/b and multiplies with c\
         instead of performing c/d division first\
         Use different symbol for fraction(/) and division(horizontal modulo symbol)
 
@@ -85,10 +85,10 @@ Then - a result after precision is zero then displays integer\
 Given - A calculator is on and working properly
 
 When - 1. Enters more than two numbers if unknowingly missed * operator\
-       2. Result of previous multipication is multiplied with new entered number.
+       2. mutilpies a result of previous multipication and next number.
 
 Then - 1. leads to incorrect calculation\
-       2. overflow may occur in some cases if larger values are multiplied.
+       2. overflow may occur in case of larger values multiplication.
 
 ## Scenario: Range of operand exceeds allowed limit
 
@@ -98,13 +98,14 @@ When - Enters large number for multiplication
 
 Then - Displays error of large numbers
 
-## Scenario: Pressing "multiply button" multiple times
+## Scenario: Pressing multiply operator multiple times
 
 Given - A calculator is on and working properly
 
-When - enters a number, * more than once, number and =
+When - 1.enters a * 2 times\
+       (a**2)
 
-Then - considers * once and displays result performing multiplication
+Then - considers as exponential operation and calculates a^2
 
 ## Scenario: Interleaving operators (Press *, then press /, then press +)
 
