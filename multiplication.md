@@ -15,7 +15,7 @@ Given - A calculator is on and working properly
 When - 1. enters two positive numbers\
        2. enters two negative numbers\
        3. enters positive and other negative number
-       
+
 Then - 1. Result is positive number\
        2. Result is positive number\
        3. Result is negative number\
@@ -34,7 +34,7 @@ Given - A calculator is on and working properly
 
 When - enters a number and 1
 
-Then - Result is entered number 
+Then - Result is entered number
 
 ## Scenario: Decimal value multiplication
 
