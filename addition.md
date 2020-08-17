@@ -22,7 +22,7 @@ Then - The result will be displayed which is negative number.
   
 Given - A calculator is turned on and working properly
 
-When - I will enter a fractional number, +, another fractional number and = 
+When - I will enter a fractional number, +, another fractional number and =
 
 Then - The result is displayed in fractional form.
   
@@ -70,7 +70,7 @@ Then - The latest * is considered and based on the operator the operation is per
 
 Given - A calculator is turned on and working properly
 
-When - I will enter number, +, 0 and = 2 times 
+When - I will enter number, +, 0 and = 2 times
 
 Then - The result is displayed and = consideres only once
 
@@ -80,4 +80,4 @@ Given - A calculator is turned on and working properly
 
 When - I will enter a number, +, second number,= or vice-versa
 
-Then - Displays same result. 
+Then - Displays same result.
