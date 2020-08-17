@@ -99,7 +99,7 @@ When - Enters large number for multiplication
 
 Then - Displays error of large numbers
 
-## Scenario: Pressing multiply operator multiple times
+## Scenario: Pressing multiply operator more than once
 
 Given - A calculator is on and working properly
 
