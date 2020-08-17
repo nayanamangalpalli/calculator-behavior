@@ -47,7 +47,7 @@ Given - A calculator is on and working properly
 
 When - I will enter a number, + two times, second number and =
 
-Then - Considers + only once and displays result.
+Then - Considers + once and displays result.
 
 ## Scenario: Adding numbers where the result goes out of range
 
@@ -57,7 +57,7 @@ When - I will enter a large number, +, second large number and =
 
 Then - Displays result from beginning and using left,right arrow we can scroll result.
 
-## Scenario: 6+* is provided as input
+## Scenario: provides 6+* as an input
 
 Given - A calculator is on and working properly
 
@@ -71,7 +71,7 @@ Given - A calculator is on and working properly
 
 When - I will enter number, +, 0 and = 2 times
 
-Then - Considers = only once and displays result.
+Then - Considers = once and displays result.
 
 ## Scenario: Converse operation
 
