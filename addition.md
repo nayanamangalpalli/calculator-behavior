@@ -1,7 +1,7 @@
 # Addition
 
 ## Scenario: Addition of two positive numbers
-  
+
 Given - A calculator is turned on,
         pressed keys displayed on screen and should be visible,
         numbers,+,-,= keys are working properly.
@@ -41,14 +41,12 @@ Then  - The result is displayed in fractional form.
   
 ## Scenario: Addition of +ve and -ve number
   
-Given - A calculator is turned on,
-        Calculator working properly(typed keys displayed on screen and should be visible,
-        numbers,+,-,/,= keys are working properly).
+Given - A calculator is turned on,calculator working properly(typed keys displayed on screen and should be visible, numbers,+,-,/,= keys are working properly).
 
-When  - I will enter positive number
-        press + symbol
-        enter another negative number and if he presses - two times
-        and press result(=) symbol.
+When  - I will enter positive number,
+        +,
+        negative number and presses - 2 times,
+        = .
 
 Then  - The latest - operation is considered and result is displayed which could be negative or positive.
 
@@ -57,10 +55,10 @@ Then  - The latest - operation is considered and result is displayed which could
 Given - A calculator is turned on,
         Calculator working properly.
         
-When  - I will enter decimal number and if I press . two times
-        press +,
-        enter second decimal number
-        and press =
+When  - I will enter decimal number and press . 2 times,
+        +, 
+        second decimal number,
+        =
 
 Then  - Calculator should npt allow me to enter . and result should be displayed in fraction.
   
@@ -69,37 +67,37 @@ Then  - Calculator should npt allow me to enter . and result should be displayed
 Given - A calculator is turned on,
         Calculator working properly
 
-When  - I will enter a number 
-        press + two times
-        enter second number
-        and press =
-        
+When  - I will enter a number, 
+        + two times,
+        second number
+        and =
+       
 Then  - The + should be considered only once and result should be displayed.
 
 ## Scenario: Adding numbers where the result goes out of range
 
 Given - A calculator is turned on,
         Calculator working properly
-  
-When  - I will enter a large number 
-        press + 
-        enter a second large number
-        and press =
-  
-Then  - The result is displayed from start with left and right arrow we can scroll result horizontally.
+
+When  - I will enter a large number, 
+        +, 
+        second large number
+        and =
+
+Then  - The result is displayed from begining and using left,right arrow we can scroll result horizontally.
 
 ## Scenario: 6+* is provided as input?
 
 Given - A calculator is turned on,
         Calculator working properly
 
-When  - I will enter a number 
-        press +*
-        enter second number
-        and press =
+When  - I will enter a number, 
+        +*,
+        second number,
+        =
 
 Then  - The latest * is considered and based on the operator the operation is performed.
- 
+
 ## Scenario: Identify operation
 
 Given - A calculator is turned on,
@@ -108,9 +106,9 @@ Given - A calculator is turned on,
 When  - 
 
 Then  - 
- 
+
 ## Scenario: Converse operation
-  
+
 Given - A calculator is turned on,
         Calculator working properly
 
