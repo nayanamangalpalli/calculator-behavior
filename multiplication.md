@@ -4,7 +4,7 @@
 
 Given - A calculator is on and working properly
 
-When - enters a large number, *, second large number and =
+When - enters a large number for multiplication
 
 Then - Calculator will display error message of too large numbers.
 
@@ -103,7 +103,7 @@ Then - Displays error of large numbers
 
 Given - A calculator is on and working properly
 
-When - 1.enters a * 2 times\
+When - 1. enters a * 2 times\
        (a**2)
 
 Then - considers as exponential operation and calculates a^2
