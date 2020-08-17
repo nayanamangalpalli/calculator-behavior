@@ -14,25 +14,25 @@ Then - A result will be displayed which is a positive number.
   
 Given - A calculator is turned on and working properly
 
-When  - I will enter a negative number, + , second negative number and =
+When - I will enter a negative number, + , second negative number and =
 
-Then  - The result will be displayed which is negative number.
+Then - The result will be displayed which is negative number.
 
 ## Scenario: Addition of fractions(Positive or Negative)
   
 Given - A calculator is turned on and working properly
 
-When  - I will enter a fractional number, + symbol,another fractional number and = 
+When - I will enter a fractional number, +, another fractional number and = 
 
-Then  - The result is displayed in fractional form.
+Then - The result is displayed in fractional form.
   
 ## Scenario: Addition of +ve and -ve number
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter positive number, +, negative number and presses - 2 times, = .
+When - I will enter +ve number, +, -ve number and presses - 2 times, = .
 
-Then  - The latest - operation is considered and displays either +ve or -ve result.
+Then - The latest - operation is considered and displays either +ve or -ve result.
 
 ## Scenario: Addition of decimals
 
@@ -44,40 +44,40 @@ Then - Doesn't allow to enter . again and displays result in fraction.
   
 ## Scenario: Typing operator more than once
 
-Given -A calculator is turned on and working properly
+Given - A calculator is turned on and working properly
 
-When  - I will enter a number, + two times, second number and =
+When - I will enter a number, + two times, second number and =
 
-Then  - The + should be considered only once and result should be displayed.
+Then - The + should be considered only once and result should be displayed.
 
 ## Scenario: Adding numbers where the result goes out of range
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter a large number, +, second large numberand =
+When - I will enter a large number, +, second large numberand =
 
-Then  - Displays result from begining and using left,right arrow we can scroll result.
+Then - Displays result from begining and using left,right arrow we can scroll result.
 
-## Scenario: 6+* is provided as input?
+## Scenario: 6+* is provided as input
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter a number, +*,second number,=
+When - I will enter a number, +*,second number,=
 
-Then  - The latest * is considered and based on the operator the operation is performed.
+Then - The latest * is considered and based on the operator the operation is performed.
 
 ## Scenario: Identity operation
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter number, +, 0 and = 2 times 
+When - I will enter number, +, 0 and = 2 times 
 
-Then  - The result is displayed and = consideres only once
+Then - The result is displayed and = consideres only once
 
 ## Scenario: Converse operation
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter a number, +, second number,= or vice-versa
+When - I will enter a number, +, second number,= or vice-versa
 
-Then  - Displays same result. 
+Then - Displays same result. 
