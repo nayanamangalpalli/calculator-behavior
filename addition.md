@@ -6,7 +6,7 @@ Given - A calculator is turned on and working properly
 
         working properly - screen and keys are working.
 
-When - Enter a positive number, plus(+) symbol, another positive number, and result(=) symbol.
+When - Enter a positive number, + , second positive number, and =.
 
 Then - A result will be displayed which is a positive number.
 
@@ -14,7 +14,7 @@ Then - A result will be displayed which is a positive number.
   
 Given - A calculator is turned on and working properly
 
-When  - I will enter a negative number, plus symbol, another negative number and result(=) symbol
+When  - I will enter a negative number, + , second negative number and =
 
 Then  - The result will be displayed which is negative number.
 
@@ -22,7 +22,7 @@ Then  - The result will be displayed which is negative number.
   
 Given - A calculator is turned on and working properly
 
-When  - I will enter a fractional number,plus symbol,another fractional number and result(=) symbol
+When  - I will enter a fractional number, + symbol,another fractional number and = 
 
 Then  - The result is displayed in fractional form.
   
@@ -32,22 +32,22 @@ Given - A calculator is turned on and working properly
 
 When  - I will enter positive number, +, negative number and presses - 2 times, = .
 
-Then  - The latest - operation is considered and result is displayed either positive or negative.
+Then  - The latest - operation is considered and displays either +ve or -ve result.
 
 ## Scenario: Addition of decimals
 
 Given - A calculator is turned on and working properly
 
-When  - I will enter decimal number and press . 2 times, +, second decimal number, =
+When - I will enter decimal number, . 2 times, +, second decimal number, =
 
-Then  - Calculator should not allow me to enter . and result should be displayed in fraction.
+Then - Doesn't allow to enter . again and displays result in fraction.
   
 ## Scenario: Typing operator more than once
 
 Given -A calculator is turned on and working properly
 
 When  - I will enter a number, + two times, second number and =
-       
+
 Then  - The + should be considered only once and result should be displayed.
 
 ## Scenario: Adding numbers where the result goes out of range
@@ -56,7 +56,7 @@ Given - A calculator is turned on and working properly
 
 When  - I will enter a large number, +, second large numberand =
 
-Then  - The result is displayed from begining and using left,right arrow we can scroll result horizontally.
+Then  - Displays result from begining and using left,right arrow we can scroll result.
 
 ## Scenario: 6+* is provided as input?
 
