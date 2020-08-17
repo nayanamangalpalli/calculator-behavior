@@ -67,7 +67,8 @@ Given - A calculator is on and working properly
 When - enters two fraction numbers\
        (a/b*c/d)
 
-Then -  leads to incorrect result - performs division of a/b and multiplies with c\
+Then -  leads to incorrect result\
+        performs division of a/b and multiply with c\
         instead of performing c/d division first\
         Use different symbol for fraction(/) and division(horizontal modulo symbol)
 
