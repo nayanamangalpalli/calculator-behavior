@@ -42,7 +42,7 @@ Given - A calculator is on and working properly
 
 When - enters  decimal number,*, second decimal number and =
 
-Then - a result is rouded off in case of numbers after precision exceeds limit.
+Then - a result is rounded off in case of numbers after precision exceeds limit.
 
 ## Scenario: Irrational value multiplication
 
@@ -68,7 +68,7 @@ When - enters two fraction numbers\
        (a/b*c/d)
 
 Then - leads to incorrect result - a/b division is performed and multiplied with\
-        instead of performing c/d divsion first\
+        instead of performing c/d division first\
         Use different symbol for fraction(/) and division(horizontal modulo symbol)
 
 ## Scenario: Decimal & integer multiplication
@@ -77,7 +77,7 @@ Given - A calculator is on and working properly
 
 When - Enters decimal number,*, integer and =
 
-Then - a result after precision is zero then displays interger\
+Then - a result after precision is zero then displays integer\
        otherwise displays decimal
 
 ## Scenario: More than two numbers multiplication
@@ -94,7 +94,7 @@ Then - 1. leads to incorrect calculation\
 
 Given - A calculator is on and working properly
 
-When - Enters large numbers for mutiplication
+When - Enters large number for multiplication
 
 Then - Displays error of large numbers
 
