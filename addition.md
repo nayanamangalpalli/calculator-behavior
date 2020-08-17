@@ -3,7 +3,6 @@
 ## Scenario: Addition of two positive numbers
 
 Given - A calculator is turned on and working properly
-
         working properly - screen and keys are working.
 
 When - Enter a positive number, + , second positive number, and =.
@@ -26,13 +25,13 @@ When - I will enter a fractional number, +, another fractional number and =
 
 Then - The result is displayed in fractional form.
   
-## Scenario: Addition of +ve and -ve number
+## Scenario: Addition of positive and negative number
 
 Given - A calculator is turned on and working properly
 
-When - I will enter +ve number, +, -ve number and presses - 2 times, = .
+When - Enters positive number, +,negative number and press - 2 times,=
 
-Then - The latest - operation is considered and displays either +ve or -ve result.
+Then - The latest - operation is considered and displays positive or negative result.
 
 ## Scenario: Addition of decimals
 
@@ -54,9 +53,9 @@ Then - The + should be considered only once and result should be displayed.
 
 Given - A calculator is turned on and working properly
 
-When - I will enter a large number, +, second large numberand =
+When - I will enter a large number, +, second large number and =
 
-Then - Displays result from begining and using left,right arrow we can scroll result.
+Then - Displays result from beginning and using left,right arrow we can scroll result.
 
 ## Scenario: 6+* is provided as input
 
@@ -72,7 +71,7 @@ Given - A calculator is turned on and working properly
 
 When - I will enter number, +, 0 and = 2 times
 
-Then - The result is displayed and = consideres only once
+Then - The result is displayed and = considers only once
 
 ## Scenario: Converse operation
 
