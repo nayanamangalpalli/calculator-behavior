@@ -26,7 +26,7 @@ Given - A calculator is on and working properly
 
 When - enters number and -0
 
-Then - consideres -0 as 0 and displays error
+Then - considers -0 as 0 and displays error
 
 ## Scenario: division by 1
 
