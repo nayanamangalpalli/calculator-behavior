@@ -36,7 +36,7 @@ When -  Enters positive and negative number and presses additional -\
 
 Then -  repetition of - in odd number considers b as negative\
         performs subtraction operation\
-        repeatition of - in even number considers b as positive\
+        repetition of - in even number considers b as positive\
         performs addition operation
 
 ## Scenario: subtraction of decimals
