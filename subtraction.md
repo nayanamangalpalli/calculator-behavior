@@ -7,7 +7,8 @@ Given - A calculator is on and working properly\
 
 When - Enters a two negative number
 
-Then - Converts a second negative number into positive number and performs subtraction operation.
+Then - Converts a second negative number into positive number\
+        and performs subtraction operation.
 
 ## Scenario: subtraction of two positive numbers
   
@@ -30,12 +31,13 @@ Then -  performs division first and subtraction
 
 Given - A calculator is on and working properly
 
-When -  Enters positive and negative number and presses additional - \
-        (a---b)\
-        
+When -  Enters positive and negative number and presses additional -\
+        (a---b)
+
 Then -  repeation of - in odd number considers b as negative\
         performs subtraction operation\
-        repeation of - in even number considers b as positive\       performs addition operation
+        repeation of - in even number considers b as positive\
+        performs addition operation
 
 ## Scenario: subtraction of decimals
 
@@ -49,7 +51,7 @@ Then - Doesn't allow to enter . again and displays result in decimal.
 
 Given - A calculator is on and working properly
 
-When -  1. in subtraction of two positive numbers 
+When -  1. in subtraction of two positive numbers
 
 Then -  1. converts second number to positive and performs addition\
         operation.
