@@ -43,7 +43,7 @@ Given - A calculator is on and working properly
 When - enters two decimal number
 
 Then - round off a result in case of numbers after precision exceeds limit\
-or occurs underflow 
+or occurs underflow
 
 ## Scenario: Irrational value division
 
