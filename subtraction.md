@@ -34,9 +34,9 @@ Given - A calculator is on and working properly
 When -  Enters positive and negative number and presses additional -\
         (a---b)
 
-Then -  repeation of - in odd number considers b as negative\
+Then -  repetition of - in odd number considers b as negative\
         performs subtraction operation\
-        repeation of - in even number considers b as positive\
+        repeatition of - in even number considers b as positive\
         performs addition operation
 
 ## Scenario: subtraction of decimals
