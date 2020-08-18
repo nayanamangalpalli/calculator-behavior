@@ -31,7 +31,7 @@ Then -  performs division first and subtraction
 
 Given - A calculator is on and working properly
 
-When -  Enters positive and negative number and presses additional -\
+When -  Enters positive and negative number and presses extra -\
         (a---b)
 
 Then -  repetition of - in odd number considers b as negative\
